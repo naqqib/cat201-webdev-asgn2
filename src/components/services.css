@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Sail&display=swap');
 
-/* --- Section Container --- */
+/*Section Container*/
 .services-section {
   position: relative;
   width: 100%;
@@ -13,7 +13,7 @@
   justify-content: center;
 }
 
-/* --- Perspective Background Grid --- */
+/*Perspective Background Grid*/
 .services-bg-grid {
   position: absolute;
   top: 0;
@@ -30,7 +30,7 @@
   z-index: 0;
 }
 
-/* --- Left Side Circle (Mirrored from Hero) --- */
+/*Left Side Circle (Mirrored from Hero)*/
 .service-circle-container {
   position: absolute;
   left: -200px; 
@@ -65,7 +65,7 @@
   background-color: rgba(176, 203, 226, 0.15); /* Very faint blue */
 }
 
-/* --- Main Content --- */
+/*Main Content*/
 .services-container {
   position: relative;
   z-index: 2;
@@ -122,7 +122,7 @@
   transform: translateX(-150px); /* Manual adjustment to match image line pos */
 }
 
-/* --- Cards Grid --- */
+/*Cards Grid*/
 .cards-grid {
   display: flex;
   flex-wrap: wrap;
@@ -177,7 +177,7 @@
   margin-top: 10px;
 }
 
-/* --- Bottom Decorative Line --- */
+/*Bottom Decorative Line*/
 .bottom-deco-line {
   width: 300px;
   height: 4px;
@@ -188,7 +188,7 @@
   opacity: 2;
 }
 
-/* --- Responsive --- */
+/*Responsive*/
 @media (max-width: 900px) {
   .services-headline {
     font-size: 36px;
